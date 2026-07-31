@@ -280,3 +280,31 @@ footer{background:#050509;border-top:1px solid #16161f;padding:70px 0 26px;}
   .foot-top{grid-template-columns:1fr;}
   .feature-grid,.stat-grid,.values-grid,.team-grid,.solutions-grid,.contact-info{grid-template-columns:1fr;}
 }
+
+/* ---------- LIGHT MODE ---------- */
+body.light{
+  --bg:#f6f6fa;
+  --bg-alt:#ffffff;
+  --panel:#ffffff;
+  --panel-border:#e4e4ec;
+  --text:#15151f;
+  --muted:#57576b;
+  --muted-dim:#83839a;
+}
+body.light header{background:rgba(246,246,250,.85);border-bottom-color:#e4e4ec;}
+body.light .icon-btn{background:#fff;border-color:#e4e4ec;}
+body.light .trust-bar{background:#f0f0f6;border-color:#e4e4ec;}
+body.light .hero-bg{opacity:.5;}
+body.light .btn-outline{border-color:#d7d7e2;color:var(--text);}
+body.light .btn-outline:hover{background:#eeeef5;border-color:#c7c7d8;}
+body.light .card:hover{background:#fafaff;}
+body.light .badge-pill{background:#f1edfd;border-color:#ded4fb;color:#6d3ff0;}
+body.light .plan.highlight{background:linear-gradient(160deg,#f4efff,#ffffff);}
+body.light .faq-item,body.light .form-shell,body.light .foot-form input,
+body.light .form-row input,body.light .form-row textarea,body.light .form-row select{
+  background:#fff;border-color:#e4e4ec;color:var(--text);
+}
+body.light .price-toggle{background:#fff;border-color:#e4e4ec;}
+body.light footer{background:#fbfbfe;border-top-color:#e4e4ec;}
+body.light .foot-bottom{border-top-color:#e4e4ec;}
+body.light .filter-row button{background:#fff;border-color:#e4e4ec;color:var(--muted);}
